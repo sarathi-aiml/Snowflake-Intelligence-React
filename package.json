@@ -1,0 +1,51 @@
+{
+  "name": "nextjs-ai-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "agent": "node scripts/agent.js",
+    "setup": "node scripts/setup.js",
+    "create-admin": "node scripts/create-admin.js",
+    "migrate": "node scripts/migrate.js",
+    "clear-data": "node scripts/clear-data.js",
+    "generate-jwt": "node scripts/generate-jwt-secret.js"
+  },
+  "dependencies": {
+    "antd": "^6.1.0",
+    "axios": "^1.7.7",
+    "chart.js": "^4.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express-session": "^1.18.1",
+    "formdata-node": "^6.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.554.0",
+    "multer": "^2.0.2",
+    "next": "^14.2.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "react-tooltip": "^5.30.0",
+    "snowflake-sdk": "^2.3.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/uuid": "^9.0.8",
+    "eslint": "^8",
+    "eslint-config-next": "^14.2.0",
+    "ignore-loader": "^0.1.2",
+    "typescript": "^5"
+  }
+}
