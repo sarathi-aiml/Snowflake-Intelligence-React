@@ -2,6 +2,7 @@
 
 A modern AI-powered chat application built with Next.js, featuring Snowflake Cortex Agents integration, Google OAuth authentication, and support for both demo and production modes.
 
+<video src="https://github.com/user-attachments/assets/447803e8-719c-42f5-ab76-19c43a9dcf9b" controls></video>
 ---
 
 ## 📋 Table of Contents
